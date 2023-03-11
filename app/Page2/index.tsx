@@ -1,24 +1,20 @@
 import { Link } from "expo-router";
-import { StyleSheet, Text, View } from "react-native";
+import { Text, View } from "react-native";
+import { styles } from "./styles";
 
-export default function Page() {
+export default function Page2Component() {
     return (
         <View style={styles.container}>
-            <Text style={styles.text}>Page 2</Text>
+            <View style={styles.main}>
+                <Text style={styles.title}>Page 2</Text>
+                <Text style={styles.subtitle}>This is the second page of your app.</Text>
+            </View>
             <Link
-                href={"./"}
+                href={"/"}
+                style={styles.link}
             >
-                go back
+                Back Home
             </Link>
         </View>
     )
 }
-
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-    },
-    text: {
-        fontSize:  16 ,  
-    }
-})
