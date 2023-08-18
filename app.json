@@ -19,7 +19,7 @@
       "supportsTablet": true
     },
     "android": {
-      "package": "com.lonewispapps.myexpotypescripttemplate",
+      "package": "com.lonewispapps.mytemplate",
       "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
