@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "My Template",
-    "slug": "MyTemplate",
+    "slug": "mytemplate",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -16,7 +16,8 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.lonewispapps.mytemplate"
     },
     "android": {
       "package": "com.lonewispapps.mytemplate",
@@ -33,11 +34,15 @@
     },
     "extra": {
       "eas": {
-        "projectId": "c48e4b2d-8b91-43ba-8d14-fcdc2bb1b195"
+        "projectId": "c5d64e25-310b-4879-ba47-0773ae003cce"
+      },
+      "router": {
+        "origin": false
       }
     },
     "plugins": [
       "expo-router"
-    ]
+    ],
+    "owner": "vittorjavidan"
   }
 }
